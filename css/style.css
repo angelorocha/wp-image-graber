@@ -1,0 +1,14 @@
+.wig-container{background:#FFF;max-width:980px;margin:30px auto 0 auto;padding:10px 15px;box-sizing:border-box;}
+.wig-table{border-collapse:collapse; width:100%;}
+.wig-table td{border:1px solid #DDD; padding:5px; text-align:center;}
+.wig-pagination{}
+.wig-pagination ul{text-align:center;}
+.wig-pagination ul li{display:inline;}
+.wig-pagination ul li a,
+.wig-pagination ul li span{display:inline-block; padding:3px 8px; text-decoration:none;}
+.wig-pagination ul li span.current{background:#DDD; color:#7A7A7A; border:1px solid #D2D2D2;}
+.wig-pagination ul li a{background:#42A5F5; color:#FFF; transition:300ms;}
+.wig-pagination ul li a:hover{background:#0077C2;}
+.wig-btn{background:#DDD; color:#7A7A7A; border:1px solid #D2D2D2; float:right; margin:10px 0 0 0; cursor:pointer; padding:5px 25px; transition:300ms;}
+.wig-btn:hover{background:#F44336; color:#FFF;}
+.wig-alert{background:#FFCDD2; border:1px solid #E53935; color:#B71C1C; padding:10px; margin-bottom:30px;}
