@@ -21,7 +21,7 @@ class WP_Image_Graber {
 		add_action( 'admin_menu', array( $this, 'wig_admin_page' ) );
 		add_action( 'admin_enqueue_scripts', [ $this, 'wig_enqueue_style' ] );
 		add_action( 'admin_enqueue_scripts', [ $this, 'wig_enqueue_script' ] );
-		add_action( 'publish_post', [ $this, 'wig_set_thumbnail' ] );
+		//add_action( 'publish_post', [ $this, 'wig_set_thumbnail' ] );
 		//add_action( 'wp_head', [ $this, 'wig_set_thumbnail' ] ); # for test...
 	}
 
